@@ -106,7 +106,7 @@ useEffect(() => {
 
   return (
     <div className="App">
-      <h1>Sign up! (By Erick)</h1>
+      <h1>Sign up! (By Erick Gonzalez)</h1>
       <UserForm
       change={inputChange}
       submit={formSubmit}
