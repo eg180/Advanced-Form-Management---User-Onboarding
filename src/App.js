@@ -46,7 +46,7 @@ export default function App() {
 
 
 
-  const postNewuser = (newUser) => {
+  const postNewUser = (newUser) => {
     axios
     .post("https://reqres.in/api/users", newUser)
     .then((res) => {
@@ -86,7 +86,7 @@ const formSubmit = () => {
     email: formValues.email.trim(),
     citizenshipstatus: formValues.citizenshipstatus.trim(),
   }
-  postNewuser(newUser);
+  postNewUser(newUser);
 };
 
 useEffect(() => {
